@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Lora:ital@0;1&family=Mulish&family=Poiret+One&family=Poppins:wght@300;400&family=Red+Hat+Display:wght@300;400&family=Source+Sans+Pro&family=Tilt+Neon&family=Unbounded&display=swap');
+
+:root {
+    --greenTea: #588157;
+    --sunsetYellow: #ffdab9;
+    --sunsetOrange: #e56b6f;
+    --almond: #f2d0a9;
+    --indigo: #967aa1;
+    --seaGreen: #2ec4b6;
+    --frenchRed: #e63946;
+    --red: #ef233c;
+    --oldWhite: #F1E3D3;
+
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+nav {
+    padding-left: 20px;
+    display: flex;
+    border: solid;
+    align-items: center;
+    gap: 15px;
+    font-family: Source Sans Pro;
+}
+
+.occupation {
+    background-color: lightgreen;
+    font-size: smaller;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Red Hat Display;
+    color: black;
+}
+
+.pfp {
+    border-radius: 50%;
+    width: 40px;
+}
+
+nav > h3 {
+    color: white;
+}
