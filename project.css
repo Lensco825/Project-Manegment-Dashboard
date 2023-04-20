@@ -29,6 +29,7 @@ nav {
     font-family: Source Sans Pro;
 }
 
+
 .occupation {
     background-color: lightgreen;
     font-size: smaller;
@@ -45,4 +46,41 @@ nav {
 
 nav > h3 {
     color: white;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+   display: flex;
+}
+
+.menu {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    height: 100%;
+    border-right: solid;
+    font-family: Poppins;
+}
+
+.menuSelect {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menuSelect > ion-icon {
+    font-size: 30px;
+}
+
+.menuSelect:hover {
+    background-color: gray;
+}
+
+.container {
+    height: 100%;
+    width: 70%;
+border: solid red;
 }
