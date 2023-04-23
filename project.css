@@ -20,10 +20,19 @@ html, body {
     background-color: black;
 }
 
+.loadingScreen {
+    width: 100%;
+    height: 75rem;
+    background-color: red;
+    border: solid salmon;
+    position: absolute;
+    top: 0;
+    z-index: 8;
+}
+
 nav {
     padding-left: 20px;
     display: flex;
-    border: solid;
     align-items: center;
     gap: 15px;
     font-family: Source Sans Pro;
@@ -49,9 +58,12 @@ nav > h3 {
 }
 
 main {
+    border: solid green;
     width: 100%;
     height: 100%;
-   display: flex;
+   display: grid;
+   grid-template-columns: 30% 70%;
+   gap: 0;
 }
 
 .menu {
@@ -79,8 +91,70 @@ main {
     background-color: gray;
 }
 
+
 .container {
-    height: 100%;
-    width: 70%;
-border: solid red;
+ height: 100%;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+color: white;
 }
+
+.announcments {
+    background-color: var(--frenchRed);
+    height: 12rem;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+.to-do {
+    background-color: var(--sunsetYellow);
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: grid;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.stats {
+    width: 300px;
+    height: 150px;
+    background-color: var(--seaGreen);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.upcoming {
+    width: 250px;
+    height: 360px;
+    background-color: red;
+    border-radius: 5px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.updates {
+    background-color: var(--indigo);
+    border-radius: 10px;
+}
+
+.update {
+    
+}
+
+.time {
+    position: relative;
+    top: 1px;
+}
+
